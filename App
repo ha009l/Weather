@@ -1,0 +1,60 @@
+Weather information application
+
+This is a Java-based weather information application that provides current weather conditions and 8-day weather forecast for a specific location. The application uses the OpenWeatherMap API to retrieve weather data and display it in an easy-to-use interface built with Swing.
+^Features
+
+- We can get current weather: Retrieve and display current weather information for a specific location.
+- 8-day weather forecast: View the 8-day weather forecast.
+- Unit conversion: switch between Celsius and Fahrenheit.
+- Search History: Keep a searchable history of previously verified sites and usage
+- Graphical User Interface: Intuitive graphical user interface containing weather icons and detailed information.
+
+## Basic requirements
+
+- Java Development Kit (JDK) 8 or higher
+- OpenWeatherMap API key
+
+## How to run
+
+1. Clone Repository: Copy this repository to your local machine.
+   sh
+   Clone git https://github.com/yourusername/weather-app.git
+   Weather application on CD
+   
+
+2. *Replace API Key*: Replace the placeholder API key in WeatherAPIService with your own OpenWeatherMap API key.
+   java
+   private static final String API_KEY = "YOUR_API_KEY_HERE";
+   
+
+3. *Compile and run*: Compile and run the application using the following commands:
+   sh
+   javac WeatherApp.java WeatherAPIService.java
+   Java WeatherApp
+   
+
+## File structure
+
+- *WeatherApp.java*: The main application class that creates the GUI and handles user interactions.
+- *WeatherAPIService.java*: A helper class that makes API calls to OpenWeatherMap and retrieves weather data.
+
+## the use
+
+1. First, write the name of the city or location in the text field.
+2. Secondly, get the weather
+3. View Forecast: Scroll through the 8-day weather forecast displayed below.
+
+## Notes
+
+- Make sure you have a stable internet connection to fetch data from OpenWeatherMap API.
+- Handle any exceptions that may occur, such as invalid locations or network issues.
+
+## license
+
+This project is licensed under the MIT License. Feel free to modify and distribute it as you wish.
+
+---
+
+Feel free to contact me if you have any questions or suggestions!
+
+Enjoy your weather forecast!
